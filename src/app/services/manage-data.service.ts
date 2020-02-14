@@ -10,7 +10,7 @@ export class ManageDataService {
 
   getData(keyword: string): Observable<any> {
     return this.http.get(
-      `https://api.unsplash.com/search/photos?client_id=da4838db6ab1450a9520ab011832d60b663bb701543e8bbe68297382f797a3be&query=${keyword}`
+      `https://api.unsplash.com/search/photos?client_id=<YOUR_ACCESS_KEY>&query=${keyword}`
     );
   }
 }
