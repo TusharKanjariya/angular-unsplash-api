@@ -1,0 +1,13 @@
+<div class="form-group row p-2 bg-light rounded">
+  <div class="col-md-10">
+    <input
+      type="text"
+      class="form-control"
+      placeholder="Search Photos"
+      [(ngModel)]="searchVal"
+    />
+  </div>
+  <div class="col-md-2">
+    <button class="btn btn-primary" (click)="sendData()">Search</button>
+  </div>
+</div>
